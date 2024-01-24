@@ -2,12 +2,8 @@ version: '3.5'
 
 services:
   app:
+    image: docker-nextjs
     build:
-      context: .
       dockerfile: Dockerfile
-    container_name: portfolio
     ports:
-      - '3000:3000'
-    volumes:
-      - .:/app
-      - /app/node_modules
+      - 3000:3000
