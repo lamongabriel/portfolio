@@ -6,5 +6,5 @@ export default function Home() {
       <p>Testing Cabinet Grotesk Font</p>
       <h1>Testing Satoshi Font</h1>
     </main>
-  );
+  )
 }
